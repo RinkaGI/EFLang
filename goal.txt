@@ -1,0 +1,38 @@
+simple arithmetic:
++ - * /
+
+variables:
+var adding = 2 + 3
+var adding
+
+conditionals:
+if (condition) {
+    print "yes"
+} else {
+    print "no"
+}
+
+loops:
+var a = 1
+while (a isnt 10) {
+    print a
+    a = a + 1
+}
+
+functions:
+function add(a, b) {
+    print a+b
+}
+
+classes
+class Player {
+    new(life) {
+        var this.life = life
+    }
+
+    die() {
+        this.life = 0
+    }
+}
+player = Player(5)
+player.die()
